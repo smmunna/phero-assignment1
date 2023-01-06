@@ -88,22 +88,22 @@ body {
 }
 
 /* Section 02: */
-.section-3 {
+.section-2 {
     padding: 50px 200px;
     text-align: center;
 }
 
-.section-3-planlist{
+.section-2-planlist{
     display: flex;
     justify-content: space-around;
 }
 
-.section-3-heading {
+.section-2-heading {
     font-size: 40px;
     font-weight: 700;
 }
 
-.section-3-subheading {
+.section-2-subheading {
     margin-top: 15px;
     font-weight: 700;
     font-size: 20px;
@@ -113,9 +113,62 @@ body {
     margin-top: 50px;
 }
 
-.section-3-description {
+.section-2-description {
     margin-top: 12px;
     font-weight: 500;
     font-size: 17px;
     color: #737272;
+}
+
+/* Section 03: */
+.section-3{
+    padding:130px 230px;
+    background:url(../images/gradient1.png),url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-3-text{
+   margin-left: 30px;
+   font-size: 30px;
+    font-weight: 700;
+    color: white;
+    line-height: 1.5;
+}
+
+.section-3 .header-button {
+    margin-left: 30px;
+}
+
+/* Section 04 */
+.helpus{
+    padding:50px 200px;
+    display: flex;
+}
+.ceo-image img{
+    height: 240px;
+    width: 350px;
+    box-shadow: 10px 12px 10px 0px rgba(0, 0, 0, 0.418);
+    border-radius: 15px;
+    border-left: 5px solid #005FAC;
+    border-bottom: 5px solid #005FAC;
+}
+.helpus-heading{
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 100px;
+}
+.helpus-subtext{
+    margin-top: 20px;
+    line-height: 1.5;
+    margin-left: 100px;
+}
+.helpus-name{
+    margin-top: 20px;
+    line-height: 1.5;
+    margin-left: 100px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.helpus-position{
+    margin-left: 100px;
 }
