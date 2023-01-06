@@ -1,40 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Work Sans', sans-serif;
 }
 
 /* Header */
-.my-header{
+.my-header {
     height: 790px;
     background: url('../images/banner/banner3.png');
     background-size: cover;
 
 
 }
-.header-info{
+
+.header-info {
     text-align: right;
-    padding:250px 200px;
+    padding: 250px 200px;
 }
-.header-title{
+
+.header-title {
     font-family: 'Work Sans';
-font-size: 65px;
-font-weight: 700;
-line-height: 76px;
-color: #FFFFFF;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    color: #FFFFFF;
 
 }
-.header-description{
+
+.header-description {
     margin-top: 20px;
     line-height: 1.5;
     color: rgba(255, 255, 255, 0.582);
 }
-.header-button{
+
+.header-button {
     margin-top: 20px;
 }
-.header-button button{
+
+.header-button button {
     padding: 15px;
     color: #005FAC;
     font-size: 17px;
@@ -42,4 +48,68 @@ color: #FFFFFF;
     border-radius: 5px;
     border: hidden;
 
+}
+
+/* Main */
+/* Section 01: */
+.section-1 {
+    padding: 80px 200px;
+    display: flex;
+
+}
+
+.section-1-text {
+    padding-top: 200px;
+}
+
+.section-1-text-heading {
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 100px;
+}
+
+.section-1-text-description {
+    margin-top: 20px;
+    line-height: 1.5;
+    margin-left: 100px;
+}
+
+.section-1-subsection {
+    margin-top: 20px;
+    display: flex;
+}
+
+.section-1-subsection {
+    margin-left: 100px;
+}
+
+.tick-title {
+    margin-left: 10px;
+}
+
+/* Section 02: */
+.section-3 {
+    padding: 50px 200px;
+    text-align: center;
+}
+
+.section-3-heading {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-3-subheading {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.web {
+    margin-top: 50px;
+}
+
+.section-3-description {
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
 }
