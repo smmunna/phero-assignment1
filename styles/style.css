@@ -5,3 +5,41 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+
+/* Header */
+.my-header{
+    height: 790px;
+    background: url('../images/banner/banner3.png');
+    background-size: cover;
+
+
+}
+.header-info{
+    text-align: right;
+    padding:250px 200px;
+}
+.header-title{
+    font-family: 'Work Sans';
+font-size: 65px;
+font-weight: 700;
+line-height: 76px;
+color: #FFFFFF;
+
+}
+.header-description{
+    margin-top: 20px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.582);
+}
+.header-button{
+    margin-top: 20px;
+}
+.header-button button{
+    padding: 15px;
+    color: #005FAC;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: hidden;
+
+}
