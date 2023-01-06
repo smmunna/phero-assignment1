@@ -93,14 +93,20 @@ body {
     text-align: center;
 }
 
+.section-3-planlist{
+    display: flex;
+    justify-content: space-around;
+}
+
 .section-3-heading {
     font-size: 40px;
     font-weight: 700;
 }
 
 .section-3-subheading {
+    margin-top: 15px;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .web {
@@ -110,6 +116,6 @@ body {
 .section-3-description {
     margin-top: 12px;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 17px;
     color: #737272;
 }
