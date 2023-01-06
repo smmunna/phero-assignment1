@@ -93,7 +93,7 @@ body {
     text-align: center;
 }
 
-.section-2-planlist{
+.section-2-planlist {
     display: flex;
     justify-content: space-around;
 }
@@ -121,15 +121,16 @@ body {
 }
 
 /* Section 03: */
-.section-3{
-    padding:130px 230px;
-    background-image:url(../images/gradient1.png),url(../images/watch.png);
+.section-3 {
+    padding: 130px 230px;
+    background: url(../images/gradient1.png), url(../images/watch.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-.section-3-text{
-   margin-left: 30px;
-   font-size: 30px;
+
+.section-3-text {
+    margin-left: 30px;
+    font-size: 30px;
     font-weight: 700;
     color: white;
     line-height: 1.5;
@@ -140,11 +141,12 @@ body {
 }
 
 /* Section 04 */
-.helpus{
-    padding:50px 200px;
+.helpus {
+    padding: 50px 200px;
     display: flex;
 }
-.ceo-image img{
+
+.ceo-image img {
     height: 240px;
     width: 350px;
     box-shadow: 10px 12px 10px 0px rgba(0, 0, 0, 0.418);
@@ -152,23 +154,94 @@ body {
     border-left: 5px solid #005FAC;
     border-bottom: 5px solid #005FAC;
 }
-.helpus-heading{
+
+.helpus-heading {
     font-size: 40px;
     font-weight: 700;
     margin-left: 100px;
 }
-.helpus-subtext{
+
+.helpus-subtext {
     margin-top: 20px;
     line-height: 1.5;
     margin-left: 100px;
 }
-.helpus-name{
+
+.helpus-name {
     margin-top: 20px;
     line-height: 1.5;
     margin-left: 100px;
     font-weight: 700;
     font-size: 20px;
 }
-.helpus-position{
+
+.helpus-position {
     margin-left: 100px;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 80px 200px;
+    display: flex;
+}
+
+.future-heading {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.future-description {
+    margin-top: 20px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.social-media {
+    margin-top: 16px;
+    display: flex;
+    gap: 15px;
+}
+
+.subscribe {
+    margin-left: 150px;
+}
+
+.subscribe-heading {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.input-box {
+    margin-top: 20px;
+}
+
+.input-box input {
+    padding: 10px;
+    border-radius: 5px;
+    outline: transparent;
+    border: hidden;
+    width: 300px;
+    background-color: black;
+    border: 1px solid rgb(132, 124, 110);
+}
+
+.input-box input:focus {
+    color: white;
+}
+
+.btn-subs {
+    margin-top: 20px;
+}
+
+.btn-subs button {
+    padding: 10px;
+    border-radius: 5px;
+    outline: transparent;
+    border: hidden;
+    background-color: #005FAC;
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
 }
